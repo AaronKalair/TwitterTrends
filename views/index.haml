@@ -1,0 +1,33 @@
+%div{:id => "wrap"}
+  %div{:class => "container" }
+    %div{:class => "page-header"}
+      %h1
+        %a{:href=>"/"} Hyper Local Trends
+    %div{:class => "row", :style => "margin-top: 10; margin-left: auto; margin-right: auto; "}
+      %div.span3{:id => "left"}
+
+      %div.span5{:style => "text-align:center;"}
+        %form.form-horizontal.center-align{ :name => "trends", :id => "myform", :action => "/start", :method => "get" }
+          %div.control-group.center-align
+            %div.controls{:style => "margin-left: auto; margin-right: auto; " }
+              %input{:style => "line-height: 100px; height: 150px; width: 170px; font-size: 40px; text-align: center", :type => "text", :placeholder => "lat", :id => "lat"}
+              %input{:style =>"line-height: 100px; height: 150px; width: 170px; font-size: 40px; text-align: center", :type => "text", :placeholder => "lng", :id => "lng" }
+          %div.control-group.center-align
+            %div.controls{:style => "margin-left: auto; margin-right: auto;" }
+              %input{:style =>"line-height: 100px; height: 150px; width: 170px; font-size: 40px; text-align: center", :type => "text", :placeholder => "radius", :id => "radius"}
+          %div.control-group.center-align
+            %div.controls{:style => "margin-left: auto; margin-right: auto;" }
+              %input{:type =>"submit", :class => "btn btn-large btn-primary", :value => "Get Trends", :id => "mybutton"}
+      %div.span3{:id => "right"}
+
+    %div{:id => "push"}
+
+%div{:id => "footer"}
+  %div{:class => "container"}
+    %p{:class => "muted credit"} Find out whats happening around you
+
+
+%script(src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js")
+%script(src="../js/bootstrap.min.js")
+%script(src="../js/jquery.canvas-loader.1.3.js")
+%script(src="../js/myjs.js")
