@@ -28,6 +28,11 @@ Enter the radius of the bounding box your trends will come from in the radius fi
 
 Examples
 ======
+
+The Twickenham Stadium during the England vs France Rugy Game
+------------------------------------------------------------------------------------------
 ![The Twickenham Stadium during the England vs France Rugy Game](http://i.imgur.com/DzcLT4b.png)
 
+The Etihad Stadium during the Manchester City vs Chelsea Football Game
+--------------------------------------------------------------------------------------------------
 ![The Etihad Stadium during the Manchester City vs Chelsea Football Game](http://i.imgur.com/IS7fgWD.png)
