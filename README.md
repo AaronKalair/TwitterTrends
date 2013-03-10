@@ -15,7 +15,7 @@ Usage
 ====
 Enter your credentials for [Twitter](https://dev.twitter.com/apps/new), [Alchemy](http://www.alchemyapi.com/api/register.html) and [Instagram](http://instagram.com/developer/clients/manage/) in the jacob/MyConfig.rb file
 
-Enter your credentials for bit.ly [a legacy API key](https://bitly.com/a/settings/advanced) in the jacob/url_expander_credentials.yml file
+Enter your credentials for bit.ly, [a legacy API key](https://bitly.com/a/settings/advanced) in the jacob/url_expander_credentials.yml file
 
 Install the required gems with bundle install
 
@@ -28,6 +28,6 @@ Enter the radius of the bounding box your trends will come from in the radius fi
 
 Examples
 ======
-[The Twickenham Stadium during the England vs France Rugy Game](http://i.imgur.com/DzcLT4b.png)
+![The Twickenham Stadium during the England vs France Rugy Game](http://i.imgur.com/DzcLT4b.png)
 
-[The Etihad Stadium during the Manchester City vs Chelsea Football Game](http://i.imgur.com/IS7fgWD.png)
+![The Etihad Stadium during the Manchester City vs Chelsea Football Game](http://i.imgur.com/IS7fgWD.png)
