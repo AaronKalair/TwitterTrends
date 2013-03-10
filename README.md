@@ -5,11 +5,11 @@ Determine the trending topics on Twitter for any specified area!
 
 This tool will determine what keywords and terms appear most in any specified area as well as extracting the images in those tweets and showing them to you.
 
-Although the goal of the project was to do it for really small areas like sports stadiums it can be used for any sized areas.
+Although the goal of the project was to do it for really small areas like sports stadiums it can be used for areas of any size.
 
 Note that the trends only seem to be meaningful in small areas if events are happening there.
 
-Initally the 100 latest posts from the area specified will be used to extract keywords then live tweets will be captured.
+Initally the 100 latest posts from the area specified will be used to extract keywords and then live tweets will be captured.
 
 Usage
 ====
@@ -24,6 +24,7 @@ Launch the server with ruby server.rb
 Navigate to localhost:4567
 
 The latitude and longitude field will be autopopulated using the geolocation API if allowed, replace the values in this field with the center point of the area you want  trends from
+
 Enter the radius of the bounding box your trends will come from in the radius field
 
 Examples
